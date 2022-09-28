@@ -1,0 +1,42 @@
+/* introduce */
+#introduce {
+    display: grid;
+    background-color: var(--background-color);
+    padding-top: 50px;
+    justify-items: center;
+}
+
+#introduce span {
+    text-align: center;
+}
+
+#introduce span:nth-child(2) {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--text-color);
+    margin: 0 12px 0 12px;
+}
+
+#introduce span:nth-child(3) {
+    margin: 27px 36px 0 36px;
+}
+
+.introduce-button {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.introduce-button button{
+    width: 236px;
+}
+
+.introduce-img {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}

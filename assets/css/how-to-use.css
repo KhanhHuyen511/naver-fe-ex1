@@ -1,0 +1,55 @@
+/* how to use */
+#how-to-use {
+
+}
+
+#how-to-use .label {
+    color: var(--primary-color);
+}
+
+#how-to-use section {
+    text-align: center;
+} 
+
+#how-to-use section span {
+    display: block;
+}
+
+#how-to-use section span:nth-child(1) {
+    margin: 65px 0 0 0;
+}
+
+#how-to-use section span:nth-child(2) {
+    margin: 40px 40px 0 40px;
+}
+
+#how-to-use section span:nth-child(3) {
+    margin: 50px 80px 0 80px;
+}
+
+.create-account-img {
+    margin-top: -100px; 
+}
+
+.how-to-use-img {
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+#how-to-use #explore span:nth-child(1) {
+    margin: -145px 0 0 0;
+}
+
+.explore-img {
+    margin-top: -120px;
+    margin-bottom: -100px;
+}
+
+#checkout {
+    margin-top: -110px;
+}
+
+.checkout-img {
+    margin-top: -125px;
+    margin-bottom: -105px;
+}

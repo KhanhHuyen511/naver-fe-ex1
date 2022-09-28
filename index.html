@@ -14,7 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/introduce.css">
     <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/how-to-use.css">
+    <link rel="stylesheet" href="/assets/css/download.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 <body>
@@ -33,7 +37,7 @@
 
     <main>
         <section id="introduce">
-            <span class="h5 text-color">Food App</span>
+            <span class="h5 text-color">Food app</span>
             <span class="text-color">Why stay hungry when you can order form Bella Onojie</span>
             <span class="h4 text-secondary-color">Download the bella onoje’s food app now on</span>
             <section class="introduce-button flex-md-row gap-md-4">
@@ -79,22 +83,38 @@
 
             <section id="download" role="contentinfo">
                 <span class="h2">Download the app now.</span>
-                <span class="h4 text-secondary-color">Most calendars are designed for teams.</span>
+                <span class="h4 text-secondary-color">
+                    <span class="d-md-none">
+                        Most calendars are designed for teams.
+                    </span>
+                </span>
                 <section class="download-button" aria-label="">
-                    <button class="btn btn-square btn-primary download-button-buy text-button">Buy now</button>
-                    <button class="btn btn-square btn-secondary-dark download-button-try text-button">Try for
-                        free</button>
+                    <button class="btn btn-square btn-primary download-button-buy text-button">
+                        <span class="m-0 d-md-none">
+                            Buy now
+                        </span>
+                    </button>
+                    <button class="btn btn-square btn-secondary-dark download-button-try text-button">
+                        <span class="m-0 d-md-none">
+                            Try for free
+                        </span>
+                    </button>
                 </section>
             </section>
     </main>
     <footer class="footer d-md-flex justify-content-around align-item-center">
-        <embed src="/assets/img/Logo.svg" class="footer-logo"></embed>
+        <embed src="/assets/img/Logo.svg" class="footer-logo d-none d-md-block"></embed>
         <section id="social-media">
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-linkedin d-md-none"></i>
+            <i class="fa-brands fa-instagram d-none d-md-block"></i>
         </section>
-        <span class="subtitle">Just type what's on your mind and we'll</span>
+        <span class="subtitle">
+            <span class="m-0 d-md-none">
+                Just type what's on your mind and we'll
+            </span>
+        </span>
     </footer>
 </body>
 
